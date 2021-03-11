@@ -1,0 +1,27 @@
+﻿@model List<Data.Formation>
+@{
+    ViewData["Title"] = "Toutes les formations";
+}
+
+<h1>Toutes nos formations</h1>
+
+<div class="row text-center">
+
+    @foreach (var formation in Model)
+    {
+
+    <div class="formation-block col-md-6 col-lg-4">
+
+        <a asp-controller="Formation"
+           asp-action="DetailsFormation"
+           asp-route-nomSeo="@formation.NomSeo">@formation.Nom</a>
+
+        <div>4.8/5<span class="fa fa-star orange"></span><span class="fa fa-star orange"></span><span class="fa fa-star orange"></span><span class="fa fa-star orange"></span><span class="fa fa-star orange"></span></div>
+   
+        <p>@formation.Description</p>
+        <br />
+    </div>
+
+    }
+
+</div>

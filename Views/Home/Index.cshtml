@@ -1,0 +1,106 @@
+﻿@model List<DetailFormationViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+
+
+<div class="jumbotron text-center">
+    <h1>Avis Formation</h1>
+    <p>Soyez sur de la formation que vous allez acheter !</p>
+</div>
+
+<section class="avantages">
+
+    <div class="row text-center">
+        <div class="col-md-6 col-lg-3">
+            <span class="fa fa-check fa-3x orange"></span>
+            <h3>Authentiques Avis</h3>
+            <p>Des avis d'élèves bien réels !</p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <span class="fa fa-glasses fa-3x orange"></span>
+            <h3>Transparence</h3>
+            <p>Rien ne vous est caché</p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <span class="fa fa-thumbs-up fa-3x orange"></span>
+            <h3>Indépendante</h3>
+            <p>Indépendance des organismes de formation</p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <span class="fa fa-dollar-sign fa-3x orange"></span>
+            <h3>Gratuit</h3>
+            <p>Tout notre travail gratuit pour vous!</p>
+        </div>
+    </div>
+</section>
+
+<section class="section-badge text-center">
+    <div class="row">
+        <div class="col-md-7 padding30">
+            <h4>Professionnels de la formation, affichez notre badge sur votre site !</h4>
+
+        </div>
+        <div class="col-md-5">
+            <div class="widget">
+                <div class="widget-top">
+                    Avis élèves 4.8/5 <spam class="fa fa-star orange"></spam><spam class="fa fa-star orange"></spam><spam class="fa fa-star orange"></spam><spam class="fa fa-star orange"></spam><spam class="fa fa-star orange"></spam>
+                </div>
+                <div class="widget-bottom">
+                    <small>Avis recoltés par AvisFormations.fr</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+
+<p>Voici nos formations phares : </p>
+
+<div class="row text-center justify-content-md-center">
+
+    @foreach (var formation in Model)
+    {
+
+        <div class="formation-block col-md-6 col-lg-4">
+
+            <a asp-controller="Formation"
+               asp-action="DetailsFormation"
+               asp-route-nomSeo="@formation.Formation.NomSeo">@formation.Formation.Nom</a>
+            @if (@formation.NoteMoyenne > 0)
+            {
+                <div>
+                    @formation.NoteMoyenne/5
+
+                    @for (int i = 1; i <= formation.NoteMoyenne; i++)
+                    {
+                        <span class="fa fa-star orange"></span>
+                    }
+
+
+                </div>
+
+            }
+
+            else
+            {
+                <div>Aucun avis</div>
+            }
+
+            <p>@formation.Formation.Description</p>
+            <br />
+        </div>
+
+    }
+
+</div>
+
+
+
