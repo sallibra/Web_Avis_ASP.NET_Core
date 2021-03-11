@@ -1,0 +1,11 @@
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\obj\Debug\netcoreapp2.1\Data.dll
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\obj\Debug\netcoreapp2.1\Data.pdb
+C:\Users\x666825\Desktop\Document\Projet_SALL_ASP-NET_Core\AvisFormationCore.WebUi\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
